@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.8" group="system" method="upgrade">
+  <name>PLG_YTDC</name>
+  <creationDate>[DATE]</creationDate>
+  <author>[AUTHOR]</author>
+  <authorEmail>[AUTHOR_EMAIL]</authorEmail>
+  <authorUrl>[AUTHOR_URL]</authorUrl>
+  <copyright>[COPYRIGHT]</copyright>
+  <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+  <version>[VERSION]</version>
+  <description>PLG_YTCONTACT_XML_DESCRIPTION</description>
+
+
+
+
+  <!-- Plugin files -->
+  <files>
+    <filename plugin="ytdc">ytdc.php</filename>
+  </files>
+
+  <config>
+  </config>
+
+</extension>
