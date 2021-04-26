@@ -19,6 +19,16 @@
   </files>
 
   <config>
+    	  <fields name="params">
+			<fieldset name="basic">
+				<field
+					name="childtheme"
+					type="text"
+					label="Name des Child Themes"
+					>
+				</field>
+			</fieldset>
+		</fields>
   </config>
 
 </extension>
