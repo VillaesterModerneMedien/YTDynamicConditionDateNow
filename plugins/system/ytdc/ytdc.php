@@ -28,9 +28,11 @@ class plgSystemYtdc extends CMSPlugin
     public function  onAfterRoute ()
     {
         $app = JFactory::getApplication();
+        $childTheme = $this->params->get('childtheme', 0);
+        
         if ('com_content' == JRequest::getCMD('option') && !$app->isAdmin()) {
-            $template = 'yootheme_child';
-            require_once(JPATH_SITE . '/templates/' . $template . '/code/SourceTransform.php');
+            //$template = 'yootheme_wp';
+            require_once(JPATH_SITE . '/templates/' . $childTheme . '/code/SourceTransform.php');
         }
     }
 
